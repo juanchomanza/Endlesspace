@@ -1,0 +1,74 @@
+.phrases__container{
+    padding: 10px;
+    width:100%;
+    font-size: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.phrases__back{
+    background-color: #2424244f;
+    background-image: url('./assets/planet.png');
+    background-position: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 60vh;
+    width: 50%;
+    border-radius: 50%;
+    box-shadow: 1px 10px 10px -1px black;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.phrases__text{
+    position: relative;
+    color: rgb(255, 255, 255);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 5px;
+    margin-top: 30px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.247);
+    /* background-color: rgb(32, 32, 32); */
+}
+.phrases__autor{
+    margin-top: 15px;
+    padding-right:50px;
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Trispace', sans-serif;
+    font-size: large;
+    /* background-color: rgb(32, 32, 32); */
+}
+
+.phrase__brand > h1{
+    
+    text-align: center;
+    font-size: 30px;
+}
+
+.phrase__brand__space{
+    font-family: 'Shantell Sans', cursive;
+    color: black;
+    font-size: 33px;
+    text-decoration:line-through;
+}
+
+
+@media (max-width: 800px){
+    .phrases__text{
+        font-size: 17px;
+    }
+    .phrases__autor{
+        font-size: 14px;
+    }
+    .phrases__back{
+        width: 80%;
+    }
+}

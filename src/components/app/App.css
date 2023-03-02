@@ -1,0 +1,38 @@
+.App{
+    height: 99vh;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.phrases{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.button{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:600;
+    padding: 10px 70px;
+    background-color: rgba(0, 0, 0, 0.479);
+    color: rgb(250, 250, 250);
+    transition: .5s;
+    position: relative;
+    margin-top: 20px;
+    border: transparent;
+    border-radius: 10px;
+}
+.button:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+footer{
+    position: relative;
+    display: flex;
+    opacity: 50%;
+}
